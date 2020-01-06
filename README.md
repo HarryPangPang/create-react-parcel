@@ -1,4 +1,4 @@
-## parcel-reactapp
+## create-react-family-parcel
 Create React apps with with parcel
 
 You can choose three types of your project
@@ -10,7 +10,7 @@ You can choose three types of your project
 dev:
 
 ```bash
-$ parcel-reactapp <project name>
+$ create-react-family-parcel <project name>
 $ cd <project name>
 $ yarn start
 ```
@@ -23,7 +23,7 @@ $ yarn build
 ### Installation
 
 ```
-$ npm install -g parcel-reactapp
+$ npm install -g create-react-family-parcel
 ```
 
 ### Requirement
@@ -34,6 +34,6 @@ $ npm install -g parcel-reactapp
 
 #### new
 ```
-    $ parcel-reactapp <project name>
+    $ create-react-family-parcel <project name>
 ```
 
