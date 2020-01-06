@@ -10,7 +10,7 @@ You can choose three types of your project
 dev:
 
 ```bash
-$ create-react-app-parcel <project name>
+$ create-reactapp-parcel <project name>
 $ cd <project name>
 $ yarn start
 ```
@@ -23,7 +23,7 @@ $ yarn build
 ### Installation
 
 ```
-$ npm install -g create-react-app-parcel
+$ npm install -g create-reactapp-parcel
 ```
 
 ### Requirement
@@ -34,6 +34,6 @@ $ npm install -g create-react-app-parcel
 
 #### new
 ```
-    $ create-react-app-parcel <project name>
+    $ create-reactapp-parcel <project name>
 ```
 
