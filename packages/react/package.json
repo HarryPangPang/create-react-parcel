@@ -1,0 +1,33 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "parcel:dev": "parcel index.html --open",
+    "parcel-dev-sh": "bash dev.sh",
+    "parcel:prod": "parcel build index.html --out-dir build/dist --detailed-report",
+    "parcel-prod-sh": "bash prod.sh",
+    "start": "npm-run-all parcel-dev-sh parcel:dev",
+    "build": "npm-run-all parcel-prod-sh parcel:prod"
+  },
+  "alias": {
+    "@": "/",
+    "pages": "/pages"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "pages": "^0.0.16",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-app-polyfill": "^1.0.5"
+  }
+}

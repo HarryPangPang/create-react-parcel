@@ -1,0 +1,24 @@
+{
+  "name": "create-react-parcel",
+  "version": "1.0.0",
+  "description": "Create React apps with parcel",
+  "main": "index.js",
+  "bin": {
+    "create-react-parcel": "packages/bin/index.js"
+  },
+  "author": "1562055324@qq.com",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "parcel",
+    "cli"
+  ],
+  "homepage": "",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "envinfo": "^7.5.0",
+    "inquirer": "^7.0.1",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
