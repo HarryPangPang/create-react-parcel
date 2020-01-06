@@ -1,4 +1,4 @@
-## create-react-parcel
+## create-reactapp-parcel
 Create React apps with with parcel
 
 You can choose three types of your project
