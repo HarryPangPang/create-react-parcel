@@ -1,6 +1,6 @@
 {
   "name": "create-react-family-parcel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create React apps with parcel",
   "main": "index.js",
   "bin": {
@@ -8,12 +8,19 @@
   },
   "author": "1562055324@qq.com",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryzq/create-react-parcel/issues"
+  },
+  "homepage": "https://github.com/harryzq/create-react-parcel#readme",
   "keywords": [
     "react",
     "parcel",
     "cli"
   ],
-  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryzq/create-react-parcel.git"
+  },
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
